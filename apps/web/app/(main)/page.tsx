@@ -1,9 +1,8 @@
+import Home from '@/components/home/Home'
 import React from 'react'
-import Auth from '@/components/auth/Auth'
 
 export default function page() {
   return (
-     <Auth/> 
+    <Home/>
   )
 }
-
